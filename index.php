@@ -15,16 +15,17 @@
         
     </head>
     <body>
-        <div class="hero hero-with-image">
-            <header>
+        <div class="hero hero-with-image container-fluid">
+            <header class="navbar-fixed-top">
                 <?php
                 include 'view/header.php';
                 ?>
             </header>
-            <div class="hero-image">
-                
+            <div class="row">
+                <div class="hero-image col-md-12"></div>
+                <hr class="no-margin-hr">
             </div>
-            <hr class="no-margin-hr">
+            
         </div>
         
         <main class="container-fluid">
@@ -46,7 +47,7 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="navbar-static-bottom">
             <?php include 'view/footer.php'; ?>
         </footer>
         

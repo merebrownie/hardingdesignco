@@ -18,8 +18,8 @@
         
     </head>
     <body>
-        <div class="hero hero-with-image">
-            <header>
+        <div class="hero hero-with-image container-fluid">
+            <header class="navbar-fixed-top">
                 <?php include 'header.php'; ?>
             </header>
             <div class="hero-image">
@@ -53,7 +53,7 @@
                 </section>
             </div>
         </main>
-        <footer class="sticky-footer static-bottom">
+        <footer class="navbar-static-bottom">
             <?php include 'footer.php'; ?>
         </footer>
     </body>

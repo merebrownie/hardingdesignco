@@ -6,7 +6,7 @@
 
 ?>
 
-<nav class="navbar navbar-simple navbar-static-top navbar-default">
+<nav class="navbar navbar-simple navbar-static-top">
     <div class="navbar-inner">
         <div class="container">
             <div class="navbar-header">
