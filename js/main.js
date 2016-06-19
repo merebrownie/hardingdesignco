@@ -2,6 +2,13 @@
  *  by meredith browne
  */
 
+$(window).load(function() {
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+    });
+});
+
 $(function() {
    $('.pop').on('click', function() {
        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
