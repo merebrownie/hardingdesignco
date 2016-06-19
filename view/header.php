@@ -5,7 +5,17 @@
  */
 
 ?>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/hardingdesignco/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="/hardingdesignco/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/hardingdesignco/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="/hardingdesignco/css/flexslider.css" rel="stylesheet" type="text/css"/>
+</head>
 
+<!--<img src="../img/harding_transparent.png" alt="harding logo">-->
 <nav class="navbar navbar-simple navbar-static-top">
     <div class="navbar-inner">
         <div class="container">
@@ -23,10 +33,9 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="/hardingdesignco/index.php">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="/hardingdesignco/view/about.php">About</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="/hardingdesignco/view/ourstory.php">Our Story</a></li>
+                    <li><a href="/hardingdesignco/view/products.php">Products</a></li>
                     <li><a href="/hardingdesignco/view/contact.php">Contact</a></li>
-                    
                 </ul>
             </div>   
         </div>
