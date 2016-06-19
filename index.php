@@ -6,24 +6,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Harding Design Co.</title>
-        
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        
     </head>
     <body>
-        <div class="hero hero-with-image container-fluid">
+<!--        <div class="hero hero-with-image container-fluid">-->
+        <div class="container-fluid">
             <header class="navbar-fixed-top">
                 <?php
                 include 'view/header.php';
                 ?>
             </header>
             <div class="row">
-                <div class="hero-image col-md-12"></div>
-                <hr class="no-margin-hr">
+<!--                <div class="hero-image col-md-12"></div>-->
+                <div class="col-md-12 big-image">
+                    <img class="img-responsive" src="img/harding_logo.png"/>
+                </div>
+                <!--<hr class="no-margin-hr">-->
             </div>
             
         </div>

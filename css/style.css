@@ -5,12 +5,18 @@
 body {
     margin: 0;
     display: block;
-    /*background-color: #fff;*/
-    background-color: #f8f4e9;
+    /*background-color: #eee;*/
+    /*background-color: #f8f4e9;*/
+    /*background: url(../img/harding_bw.png) no-repeat center center fixed;*/
+    /*background-size: 20% auto;*/
+    /*background-size: cover;*/
+    /*top: 0px;*/
+    font-family: 'PT Sans', sans-serif;
+    
 }
 
 footer {
-    background-color: #f8f4e9;
+    /*background-color: #f8f4e9;*/
     /*padding-top: 10px;*/
     /*padding-bottom: 10px;*/
     height: 60px;
@@ -19,7 +25,17 @@ footer {
 
 h1 {
     text-transform: uppercase;
-    margin-bottom: 5%;
+    margin: 5%;
+    /*margin-bottom: 5%;*/
+    /*background-color: #5e5e5e;*/
+    /*height: 150px;*/
+    vertical-align: middle;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
 }
 
 header {
@@ -31,6 +47,15 @@ header {
     /*border-bottom:1px solid #dadfe1;*/
     position: relative;
     display: block;
+    background-color: #fff;
+    text-align: center;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+.header {
     background-color: #fff;
 }
 
@@ -59,7 +84,7 @@ header {
 
 main {
     top: 0;
-    background-color: #f8f4e9;
+    /*background-color: #f8f4e9;*/
     margin-bottom: 60px;
 }
 
@@ -70,6 +95,10 @@ section {
     margin-bottom: 120px;
     display: block;
     /*background-color: #dbc79e;*/
+}
+
+.big-image {
+    background-color: #000;
 }
 
 .btn-flat {
@@ -87,6 +116,10 @@ section {
     position: relative;
     text-align: center;
     cursor: default;
+}
+
+.caption a {
+    color: #fff;
 }
 
 .caption .overlay {
@@ -157,7 +190,7 @@ section {
 }
 
 .container {
-    overflow: hidden;
+    /*overflow: hidden;*/
     zoom: 1;
     max-width: 1400px;
     margin-left: auto;
@@ -176,8 +209,21 @@ div .hero-image {
     background-size: 100%;
 }
 
-.logo {
-    
+.error {
+    color: red;
+}
+
+.flex-caption {
+    /*width: 96%;*/
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    font-size: 14px;
+    line-height: 18px;
+    /*opacity: .1;*/
 }
 
 .hero {
@@ -215,7 +261,9 @@ div .hero-image {
 }
 
 .logo {
-    max-height: 400px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 30%;
 }
 
 .modal-fullscreen {
@@ -245,9 +293,16 @@ div .hero-image {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+
+
+/*@media (min-width: 768px) {
     .modal-fullscreen .modal-dialog {
         width: 750px;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 20%;
     }
 }
 
@@ -255,13 +310,23 @@ div .hero-image {
     .modal-fullscreen .modal-dialog {
         width: 970px;
     }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+    }
 }
 
 @media (min-width: 1200px) {
     .modal-fullscreen .modal-dialog {
         width: 1170px;
     }
-}
+    
+    .logo {
+        height: 50%;
+        width: 50%;
+    }
+}*/
 
 /*.navbar .navbar-nav {
     display: inline-block;
@@ -308,7 +373,7 @@ div .hero-image {
 .navbar-simple .navbar-inner {
     background: transparent;
     /*border-bottom-color: rgba(255,255,255,.25);*/
-    /*filter: none !important;*/
+    filter: none !important;
     /*box-shadow: 0 2px 15px rgba(0,0,0,0.25);*/
     /*-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);*/
     /*-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);*/
@@ -328,7 +393,7 @@ div .hero-image {
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 15px;
-    /*font-weight: 600;*/
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -337,17 +402,29 @@ div .hero-image {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    /*color: #bf3604;*/
+    color: #bf3604;
     color: #333;
     
 }
 
-.navbar-simple .navbar-inner .nav li.active a {
-    /*color: #bf3604;*/
+.navbar-simple .navbar-inner .dropdown-menu {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
 }
+
+/*.navbar-simple .navbar-inner .nav li.active a {
+    color: #bf3604;
+}*/
 
 .navbar-simple .navbar-toggle .icon-bar {
     background-color: #888;
+}
+
+.smaller {
+    width: 50%;
 }
 
 .sticky-footer {

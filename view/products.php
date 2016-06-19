@@ -5,17 +5,11 @@
  */
 
 ?>
+
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Harding Design Co.</title>
-        
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="../css/style.css">
-        
     </head>
     <body>
         <div class="container-fluid header">
@@ -27,14 +21,22 @@
         
         <main class="container-fluid">
             <div class="row">
-                <h1 class="text-center">Contact Us</h1>
+                <h1 class="text-center">Products</h1>
                 <section class="container">
-                    <!--<img src="../img/IMG_2674.jpg" class="center-block smaller img-responsive">-->
-                    <div class="col-md-6">
-                        <?php include '../mail_manager/send_mail.php'; ?>
+                    <div class="item">
+                        <h2>Tables</h2>
+                        <?php include '../products/tables.php' ?>
                     </div>
-                    <div class="col-md-6">
-                        <img src="../img/IMG_2630.jpg" class="img-responsive"/>
+                    <div class="item">
+                        <h2>Shelves</h2>
+                        <?php include '../products/shelves.php' ?>
+                    </div>
+                    <div class="item">
+                        <h2>Speaker Stands</h2>
+                        <?php include '../products/speaker-stands.php' ?>
+                    </div>
+                    <div class="item">
+                        <h2>Firewood Cart</h2>
                     </div>
                 </section>
             </div>
@@ -44,3 +46,5 @@
         </footer>
     </body>
 </html>
+
+
