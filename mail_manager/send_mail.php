@@ -35,39 +35,33 @@ if (!empty($_POST)) {
                 $messageErr = "  *Invalid message content.";
             }
         }
+        
+        if ($messageErr == $emailErr && $emailErr == $nameErr) {
+            //$to = "matt@hardingdesignco.com";
+            $to = "merebrownie@me.com";
+            $from = $email;
+            $subject = "Website Inquiry";
+            $subject2 = "Copy of your form submission";
+            $message1 = $name . " wrote the following:" . "\n\n" . $message;
+            $message2 = "Here is a copy of your message: " . $name . "\n\n" . $message;
+
+            $headers = "From:" . $from;
+            $headers2 = "From:" . $to;
+            mail($to, $subject, $message1, $headers);
+            mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
+            echo 'Mail sent, thank you! We will contact you shortly.';
+        }
     }
 }
 
-//$to = "matt@hardingdesignco.com";
-$to = "merebrownie@me.com";
-$from = $email;
-$subject = "Website Inquiry";
-$subject2 = "Copy of your form submission";
-$message1 = $name . " wrote the following:" . "\n\n" . $message;
-$message2 = "Here is a copy of your message: " . $name . "\n\n" . $message;
-    
-$headers = "From:" . $from;
-$headers2 = "From:" . $to;
-mail($to, $subject, $message1, $headers);
-mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
-if (!empty($_POST)) {
-    echo 'Mail sent, thank you ' . $name . ', we will contact you shortly.';
-}
+
+
 
 function test_input ($data) {
     $data = trim($data);
     $data = stripcslashes($data);
     $data = htmlspecialchars($data);
     return $data;
-}
-
-
-
-//if (isset($_POST['submit'])) {
-if ($_POST) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
 }
     
 ?>
