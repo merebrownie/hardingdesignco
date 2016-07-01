@@ -28,6 +28,10 @@
                         <?php include '../products/tables.php' ?>
                     </div>
                     <div class="item">
+                        <h2>Benches</h2>
+                        <?php include '../products/benches.php' ?>
+                    </div>
+                    <div class="item">
                         <h2>Shelves</h2>
                         <?php include '../products/shelves.php' ?>
                     </div>
@@ -35,9 +39,9 @@
                         <h2>Speaker Stands</h2>
                         <?php include '../products/speaker-stands.php' ?>
                     </div>
-                    <div class="item">
+<!--                    <div class="item">
                         <h2>Firewood Cart</h2>
-                    </div>
+                    </div>-->
                 </section>
             </div>
         </main>
