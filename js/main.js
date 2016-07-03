@@ -5,7 +5,9 @@
 $(window).load(function() {
     $('.flexslider').flexslider({
         animation: "slide",
-        controlNav: "thumbnails"
+        controlNav: "thumbnails",
+//        itemWidth: 188,
+//        itemMargin: 5
     });
 });
 

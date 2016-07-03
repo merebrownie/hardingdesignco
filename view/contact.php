@@ -34,7 +34,7 @@
                         <?php include '../mail_manager/send_mail.php'; ?>
                     </div>
                     <div class="col-md-6">
-                        <img src="../img/IMG_2630.jpg" class="img-responsive"/>
+                        <img src="../img/IMG_2630-min.jpg" class="img-responsive"/>
                     </div>
                 </section>
             </div>

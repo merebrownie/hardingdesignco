@@ -18,7 +18,7 @@
             <div class="row">
 <!--                <div class="hero-image col-md-12"></div>-->
                 <div class="col-md-12 big-image">
-                    <img class="img-responsive" src="img/harding_logo.png"/>
+                    <img class="big-image img-responsive" src="img/harding_logo.png" data-src-960px="img/harding_bw.png" alt=""/>
                 </div>
                 <!--<hr class="no-margin-hr">-->
             </div>
@@ -44,6 +44,7 @@
                 </div>
             </div>
         </main>
+
         <footer class="navbar-static-bottom">
             <?php include 'view/footer.php'; ?>
         </footer>

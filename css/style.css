@@ -2,6 +2,8 @@
  by meredith browne
 */
 
+
+
 body {
     margin: 0;
     display: block;
@@ -99,6 +101,17 @@ section {
 
 .big-image {
     background-color: #000;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .big-image {
+        content: url(../img/harding_bw.png);
+        width: 100%;
+        background-color: #fff;
+    }
 }
 
 .btn-flat {

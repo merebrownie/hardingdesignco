@@ -10,7 +10,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12 grid-left" id="1">
         <a href="#row-1" class="pop">
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2220.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2220.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -22,7 +22,7 @@
         <a href="#row-1" class="pop">
             
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2228.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2228-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -33,7 +33,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12 grid-right" id="3">
         <a href="#row-1" class="pop">
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2283.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2283-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -47,7 +47,7 @@
         <a href="#row-2" class="pop">
             
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2630.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2630-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -59,7 +59,7 @@
         <a href="#row-2" class="pop">
             
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2626.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2626-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -70,7 +70,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12 grid-right" id="6">
         <a href="#row-2" class="pop">
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2634.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2634-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -83,7 +83,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12 grid-left" id="7">
         <a href="#row-3" class="pop">            
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2642.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2642-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -94,7 +94,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12 grid-center" id="8">
         <a href="#row-3" class="pop">            
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2660.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2660-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
@@ -105,7 +105,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12 grid-right" id="9">
         <a href="#row-3" class="pop">
             <div class="caption">
-                <img class="img-responsive" src="img/IMG_2674.jpg" alt="">
+                <img class="img-responsive" src="img/IMG_2674-min.jpg" alt=""/>
                 <div class="overlay">
                     <h2>Caption</h2>
                     <p><a href="view/products.php">View More</a></p>
