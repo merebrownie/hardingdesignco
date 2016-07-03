@@ -17,7 +17,7 @@
             </header>
             <div class="row">
 <!--                <div class="hero-image col-md-12"></div>-->
-                <div class="col-md-12 big-image">
+                <div class="col-md-12">
                     <img class="big-image img-responsive" src="img/harding_logo.png" data-src-960px="img/harding_bw.png" alt=""/>
                 </div>
                 <!--<hr class="no-margin-hr">-->

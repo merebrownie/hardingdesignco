@@ -106,11 +106,13 @@ section {
     margin: 0;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 61.9em) {
     .big-image {
         content: url(../img/harding_bw.png);
         width: 100%;
         background-color: #fff;
+        margin-bottom: 10%;
+        margin-top: 3%;
     }
 }
 
@@ -265,7 +267,8 @@ div .hero-image {
     position: relative;
     min-width: 100%;
     z-index: 0;
-    border: 0px;
+    /*border: 0px;*/
+    overflow: hidden;
 }
 
 .imagepreview {
@@ -277,6 +280,13 @@ div .hero-image {
     margin-top: 3%;
     margin-bottom: 3%;
     width: 30%;
+}
+
+@media screen and (max-width: 650px) {
+    .logo {
+        width: 100%;
+        margin-bottom: 10%;
+    }
 }
 
 .modal-fullscreen {

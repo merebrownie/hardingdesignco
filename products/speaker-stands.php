@@ -12,5 +12,9 @@
             <img src="../img/IMG_2283-min.jpg" alt="table">
             <p class="flex-caption">Description here.</p>
         </li>
+        <li data-thumb="../img/IMG_2281_thumb.png">
+            <img src="../img/IMG_2281-min.png" alt="table">
+            <p class="flex-caption">Description here.</p>
+        </li>
     </ul>
 </div>
