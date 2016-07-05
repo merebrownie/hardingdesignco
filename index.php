@@ -5,7 +5,6 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Harding Design Co.</title>
     </head>
     <body>
 <!--        <div class="hero hero-with-image container-fluid">-->

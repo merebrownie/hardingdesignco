@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="/hardingdesignco/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="/hardingdesignco/css/flexslider.css" rel="stylesheet" type="text/css"/>
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harding Design Co.</title>
 </head>
 
 <!--<img src="../img/harding_transparent.png" alt="harding logo">-->
