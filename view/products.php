@@ -16,26 +16,26 @@
             <header class="navbar-fixed-top">
                 <?php include 'header.php'; ?>
             </header>
-            <img src="../img/harding_bw.png" alt="harding logo" class="logo center-block">
+            <img src="../img/harding_transparent.png" alt="harding logo" class="logo center-block">
         </div>
         
         <main class="container-fluid">
             <div class="row">
                 <h1 class="text-center">Products</h1>
                 <section class="container">
-                    <div class="item">
+                    <div class="item" id="tables">
                         <h2>Tables</h2>
                         <?php include '../products/tables.php' ?>
                     </div>
-                    <div class="item">
+                    <div class="item" id="benches">
                         <h2>Benches</h2>
                         <?php include '../products/benches.php' ?>
                     </div>
-                    <div class="item">
+                    <div class="item" id="shelves">
                         <h2>Shelves</h2>
                         <?php include '../products/shelves.php' ?>
                     </div>
-                    <div class="item">
+                    <div class="item" id="speakerStands">
                         <h2>Speaker Stands</h2>
                         <?php include '../products/speaker-stands.php' ?>
                     </div>

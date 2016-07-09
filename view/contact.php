@@ -14,7 +14,7 @@
             <header class="navbar-fixed-top">
                 <?php include 'header.php'; ?>
             </header>
-            <img src="../img/harding_bw.png" alt="harding logo" class="logo center-block">
+            <img src="../img/harding_transparent.png" alt="harding logo" class="logo center-block">
         </div>
         
         <main class="container-fluid">

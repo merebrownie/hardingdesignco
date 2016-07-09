@@ -7,12 +7,12 @@
 ?>
 <head>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/hardingdesignco/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/hardingdesignco/style/bootstrap.min.css">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="/hardingdesignco/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/hardingdesignco/css/style.css">
+    <link rel="stylesheet" href="/hardingdesignco/style/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/hardingdesignco/style/style.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href="/hardingdesignco/css/flexslider.css" rel="stylesheet" type="text/css"/>
+    <link href="/hardingdesignco/style/flexslider.css" rel="stylesheet" type="text/css"/>
     <!--[if lt IE 9]>
         <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
     <![endif]-->

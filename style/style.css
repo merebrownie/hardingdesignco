@@ -1,7 +1,11 @@
 body {
   margin: 0;
   display: block;
-  font-family: "PT Sans", sans-serif; }
+  font-family: "PT Sans", sans-serif;
+  background-color: #D2B48C;
+  background-image: url(../img/IMG_2674-min.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 footer {
   height: 60px; }
@@ -18,10 +22,14 @@ h1 {
 
 header {
   z-index: 1;
-  opacity: .7;
+  /*height: 10%;*/
+  opacity: .4;
   position: relative;
   display: block;
-  background-color: #fff;
+  background-color: #E4D2BA;
+  /*background-color: $backgroundColor;*/
+  /*background-color: #fff;*/
+  color: #000;
   text-align: center; }
   header a:hover {
     font-weight: bold; }
@@ -44,9 +52,17 @@ section {
   overflow: hidden; }
 
 .big-image {
-  background-color: #000;
-  min-width: 100%;
-  margin: 0; }
+  /*background-color: #000;*/
+  /*min-width: 100%;*/
+  width: 60%;
+  margin: 0;
+  /*align-content: center;*/
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-logo {
+  margin-top: 10%; }
 
 .btn-flat {
   background-image: none;
@@ -162,7 +178,9 @@ section {
   padding-left: 0px; }
 
 .header {
-  background-color: #fff; }
+  /*    background-color: #fff;*/
+  align-items: center;
+  position: relative; }
 
 .image {
   position: relative;
@@ -177,7 +195,8 @@ section {
 .logo {
   margin-top: 3%;
   margin-bottom: 3%;
-  width: 30%; }
+  width: 30%;
+  /*background-color: $backgroundColor;*/ }
 
 .modal-fullscreen {
   background: transparent; }
@@ -211,10 +230,10 @@ section {
     .navbar-simple .navbar-toggle .icon-bar {
       background-color: #888; }
   .navbar-simple .navbar-brand {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
     background: transparent;
-    color: #777;
+    /*color: #777;*/
     text-transform: uppercase; }
     .navbar-simple .navbar-brand:focus {
       color: #5e5e5e;
@@ -223,7 +242,7 @@ section {
       color: #5e5e5e;
       background-color: transparent; }
   .navbar-simple .navbar-text {
-    color: #777; }
+    /*color: #777;*/ }
   .navbar-simple .navbar-inner {
     background: transparent;
     filter: none !important;
@@ -234,10 +253,11 @@ section {
         background: transparent;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
-        color: #777;
+        /*color: #777;*/
+        color: #000;
         font-size: 14px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        /*padding-top: 15px;*/
+        /*padding-bottom: 15px;*/
         font-weight: 600;
         text-transform: uppercase; }
         .navbar-simple .navbar-inner .nav li a:hover {
@@ -262,9 +282,9 @@ section {
     margin-right: 15px; }
 
   .big-image {
-    content: url(../img/harding_bw.png);
+    content: url(../img/harding_transparent.png);
     width: 100%;
-    background-color: #fff;
+    /*background-color: #000;*/
     margin-bottom: 10%;
     margin-top: 3%; }
 
