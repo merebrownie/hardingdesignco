@@ -1,8 +1,9 @@
+/*$backgroundColor: #D2B48C;*/
 body {
   margin: 0;
   display: block;
   font-family: "PT Sans", sans-serif;
-  background-color: #D2B48C; }
+  background-color: #eec080; }
 
 footer {
   height: 60px; }
@@ -50,7 +51,7 @@ section {
 .big-image {
   /*background-color: #000;*/
   /*min-width: 100%;*/
-  width: 60%;
+  width: 50%;
   margin: 0;
   /*align-content: center;*/
   position: relative;
