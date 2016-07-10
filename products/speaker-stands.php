@@ -18,3 +18,27 @@
         </li>
     </ul>
 </div>
+<div class="flexslider">
+    <ul class="slides">
+        <li data-thumb="../img/IMG_2218_thumb.png">
+            <img class="image" src="../img/IMG_2218-min.jpg" alt="table">
+            <p class="flex-caption">Description here.</p>
+        </li>
+        <li data-thumb="../img/IMG_2220_thumb.png">
+            <img class="image" src="../img/IMG_2220-min.jpg" alt="table">
+            <p class="flex-caption">Description here.</p>
+        </li>
+        <li data-thumb="../img/IMG_2221_thumb.png">
+            <img class="image" src="../img/IMG_2221-min.jpg" alt="table">
+            <p class="flex-caption">Description here.</p>
+        </li>
+        <li data-thumb="../img/IMG_2225_thumb.png">
+            <img class="image" src="../img/IMG_2225-min.jpg" alt="table">
+            <p class="flex-caption">Description here.</p>
+        </li>
+        <li data-thumb="../img/IMG_2228_thumb.png">
+            <img class="image" src="../img/IMG_2228-min.jpg" alt="table">
+            <p class="flex-caption">Description here.</p>
+        </li>
+    </ul>
+</div>

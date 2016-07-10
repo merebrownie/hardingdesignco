@@ -67,7 +67,6 @@ section {
     border: 0;
     margin-top: 15px;
     margin-bottom: 15px;
-    overflow: hidden;
 }
 
 .big-image {
@@ -336,18 +335,17 @@ section {
                 }
             }
         }
-    }
-}
-
-@media screen and (max-width: 47.9em) {
-    #map {
-        width: 18em;
-        height: 20em;
-        border: 0;
-        margin-top: 15px;
-        margin-right: 15px;
-    }
+        
+        @media screen and (max-width: 47.9em) {
+            #map {
+                height: 300px;
+                width: 400px;
+                border: 0;
+                margin-top: 15px;
+                margin-right: 15px;
+            }
             
+<<<<<<< HEAD:style/style.scss
     .big-image {
         content: url(../img/harding_transparent.png);
         width: 100%;
@@ -358,5 +356,23 @@ section {
     .logo {
         width: 100%;
         margin-bottom: 10%;
+=======
+            .big-image {
+                content: url(../img/harding_bw.png);
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 10%;
+                margin-top: 3%;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .logo {
+                width: 100%;
+                margin-bottom: 10%;
+            }
+        }
+>>>>>>> parent of 835afb1... tweaking map size:css/style.scss
     }
 }
+
