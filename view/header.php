@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/hardingdesignco/style/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="/hardingdesignco/style/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/hardingdesignco/style/style.css">
+    <link rel="stylesheet" href="/hardingdesignco/style/style.css?version=1">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="/hardingdesignco/style/flexslider.css" rel="stylesheet" type="text/css"/>
     <!--[if lt IE 9]>
