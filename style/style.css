@@ -2,10 +2,7 @@ body {
   margin: 0;
   display: block;
   font-family: "PT Sans", sans-serif;
-  background-color: #D2B48C;
-  background-image: url(../img/IMG_2674-min.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat; }
+  background-color: #D2B48C; }
 
 footer {
   height: 60px; }
@@ -179,7 +176,10 @@ section {
 .header {
   /*    background-color: #fff;*/
   align-items: center;
-  position: relative; }
+  position: relative;
+  /*    background-image: url(../img/IMG_2674-min.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;*/ }
 
 .image {
   position: relative;
@@ -192,8 +192,8 @@ section {
   width: 100%; }
 
 .logo {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   width: 30%;
   /*background-color: $backgroundColor;*/ }
 
@@ -271,12 +271,11 @@ section {
           -moz-box-shadow: none;
           box-shadow: none;
           color: #000; }
-<<<<<<< HEAD:style/style.css
 
 @media screen and (max-width: 47.9em) {
   #map {
-    width: 18em;
-    height: 20em;
+    height: 300px;
+    width: 400px;
     border: 0;
     margin-top: 15px;
     margin-right: 15px; }
@@ -289,26 +288,17 @@ section {
     margin-top: 3%; }
 
   .logo {
-    width: 100%;
-    margin-bottom: 10%; } }
-=======
-    @media screen and (max-width: 47.9em) {
-      .navbar-simple .navbar-inner #map {
-        height: 300px;
-        width: 400px;
-        border: 0;
-        margin-top: 15px;
-        margin-right: 15px; }
-      .navbar-simple .navbar-inner .big-image {
-        content: url(../img/harding_bw.png);
-        width: 100%;
-        background-color: #fff;
-        margin-bottom: 10%;
-        margin-top: 3%; } }
-    @media screen and (max-width: 480px) {
-      .navbar-simple .navbar-inner .logo {
-        width: 100%;
-        margin-bottom: 10%; } }
->>>>>>> parent of 835afb1... tweaking map size:css/style.css
+    width: 50%;
+    /*margin-bottom: 10%;*/ }
+    .logo .big-image {
+      content: url(../img/harding_bw.png);
+      width: 100%;
+      background-color: #fff;
+      /*margin-bottom: 10%;*/
+      /*margin-top: 3%;*/ } }
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 70%;
+    /*margin-bottom: 10%;*/ } }
 
 /*# sourceMappingURL=style.css.map */
