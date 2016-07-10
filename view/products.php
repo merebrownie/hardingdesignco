@@ -25,19 +25,19 @@
                 <section class="container">
                     <div class="item" id="tables">
                         <h2>Tables</h2>
-                        <?php include '../products/tables.php' ?>
+                        <?php include 'products/tables.php' ?>
                     </div>
                     <div class="item" id="benches">
                         <h2>Benches</h2>
-                        <?php include '../products/benches.php' ?>
+                        <?php include 'products/benches.php' ?>
                     </div>
                     <div class="item" id="shelves">
                         <h2>Shelves</h2>
-                        <?php include '../products/shelves.php' ?>
+                        <?php include 'products/shelves.php' ?>
                     </div>
                     <div class="item" id="speakerStands">
                         <h2>Speaker Stands</h2>
-                        <?php include '../products/speaker-stands.php' ?>
+                        <?php include 'products/speaker-stands.php' ?>
                     </div>
 <!--                    <div class="item">
                         <h2>Firewood Cart</h2>
