@@ -177,9 +177,9 @@ section {
   /*    background-color: #fff;*/
   align-items: center;
   position: relative;
-  /*    background-image: url(../img/IMG_2674-min.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;*/ }
+  background-image: url(../img/IMG_2674-min.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .image {
   position: relative;
