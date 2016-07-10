@@ -18,8 +18,8 @@
             <div class="row">
 <!--                <div class="hero-image col-md-12"></div>-->
                 <div class="col-md-12">
-                    <!--<img class="big-image img-responsive" src="img/harding_logo.png" data-src-960px="img/harding_transparent.png" alt=""/>-->
-                    <img class="center-block img-responsive logo main-logo" src="img/harding_transparent.png"/>
+                    <img class="big-image img-responsive" src="img/harding_logo.png" data-src-960px="img/harding_transparent.png" alt=""/>
+                    <!--<img class="center-block img-responsive logo main-logo" src="img/harding_transparent.png"/>-->
                 </div>
                 <!--<hr class="no-margin-hr">-->
             </div>
